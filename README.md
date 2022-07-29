@@ -15,3 +15,22 @@ se usó el ORM TyperOrm para el modelamiendo de las tablas en la base de datos.
 
 # 🧰 Docker 
  base de datos en contenedores locales.
+ 
+ Reconstruir módulos de Node
+```
+npm install
+```
+Edita la cadena de conexión que se encuentra en el archivo 
+``
+.env 
+``
+
+
+Levantar servidor en desarrollo con TypeScript
+```
+npm dev
+```
+
+Levantar servidor en producción con TypeScript
+```
+npm start
